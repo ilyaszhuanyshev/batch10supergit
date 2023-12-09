@@ -18,6 +18,9 @@ public class Main {
         String name = "Java";
         int age = 44;
 
+        String city = "Paris";
+        int amount = 1000;
+
         System.out.println(user2);
 
     }
