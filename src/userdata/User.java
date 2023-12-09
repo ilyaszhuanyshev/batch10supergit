@@ -1,6 +1,7 @@
 package userdata;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class User {
 
@@ -44,10 +45,11 @@ public class User {
 
     @Override
     public String toString() {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd MMMM, yyyy");
         return "User{" +
                 "email='" + email + '\'' +
                 ", fullName='" + fullName + '\'' +
-                ", birthdate=" + birthdate +
+                ", birthdate=" + dateTimeFormatter.format(birthdate) +
                 '}';
     }
 }
