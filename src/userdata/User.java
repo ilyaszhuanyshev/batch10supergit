@@ -10,7 +10,9 @@ public class User {
     private LocalDate birthdate;
 
     public User(){
-
+        this.email = "noemail@gmail.com";
+        this.fullName = "No Full Name";
+        this.birthdate = LocalDate.of(1990, 1, 1);
     }
 
     public User(String email, String fullName, LocalDate birthdate) {
