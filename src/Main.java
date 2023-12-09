@@ -21,6 +21,8 @@ public class Main {
         String city = "Paris";
         int amount = 1000;
 
+        int population = 5000000;
+
         System.out.println(user2);
 
     }
