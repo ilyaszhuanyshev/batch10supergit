@@ -15,6 +15,9 @@ public class Main {
         user2.setFullName("Shaima Ibrahim");
         user2.setBirthdate(LocalDate.of(1995, 12,31));
 
+        String name = "Java";
+        int age = 44;
+
         System.out.println(user2);
 
     }
